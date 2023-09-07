@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Html</title>
+    <link rel="shortcut icon" href="imagens/bluerio.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgba(0, 0, 255, 0.473);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinamica &#x1F5BC </h1>
+    <hr>
+    <p>
+        <em>
+            Imagens em site é um assunto bem importe, pois se tratando de site a imagem se torna fundamental. Atualmente
+            se tem diversos tipos de dispositivos moveis, é existe uma imagem considerada ideal para cada um deles, com isso,
+            podemos <abbr title="Ultilizando o comando source:midia:type "><strong>variar o tamanha</strong></abbr> da imagem de acordo com o que for melhor para o usuario. 
+        </em> 
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="testes/imagP.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="testes/vangoghM.jpg" type="image/jpg">
+        <img src="testes/vangoghG.jpg" alt="Imagem de uma pintura do vangogh">
+
+    </picture>
+</body>
+</html>
