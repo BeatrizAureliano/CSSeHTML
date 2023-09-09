@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo recursos audios visuais</title>
+    <link rel="shortcut icon" href="imagens/video.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgba(255, 251, 0, 0.726);
+        }
+    </style>
+</head>
+<body>
+    <h1>Adicionando os 3 maiores recursos de audio visual</h1>
+    <hr>
+    <h2>Adicionando imagem dinamica</h2>
+    <p>A imagem dinamica segue sendo uma das melhores formas de gerencias seu site com imagens.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="testes/imagP.jpg" type="image/jpg">
+        <source media="(max-width:1010px )" srcset="testes/vangoghM.jpg" type="image/jpg">
+        <img src="testes/vangoghG.jpg" alt="imagem vangogh">
+    </picture>
+    <hr>
+    <h2>Adicionando audio </h2>
+    <p>Um dos recursos mais necessarios dentro do site, pois com ele podemos ter uma inclusão.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midias/Society'sDream-MiniVandals.mp3" type="audio/mp3">
+
+    </audio>
+    <hr>
+    <h2>Adicionando videos interno</h2>
+    <p>O recurso de adicionar videos em site vem des da epoca do blog é ainda hoje e bastante ultilizado.</p>
+    <video width="600px" controls loop>
+        <source src="midias/saopaulo.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <h2>Adicionando videos externos</h2>
+    <p>ultilizando o proprio youtube pode-se colocar video no site.</p>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/F5tSoaJ93ac?si=mV1BS8bjO6KeGByD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
