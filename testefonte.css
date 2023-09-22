@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+h1{
+    font-family: 'Satisfy', cursive;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    text-align: justify;
+    font-family: 'Mooli', sans-serif;
+}
