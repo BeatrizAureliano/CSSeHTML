@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    text-align: justify,;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #6aff006e,#f5dd0573);
+}
+
+main{
+    background-color: aliceblue;
+    margin: 1.2cm;
+    padding: 10px;
+    border-radius: 0.5cm;
+    width: auto;
+
+}
+h1#principal{
+    background-color: #ffa600 ;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6aff00;
+    font-weight: bold;
+}
+
+.basico{
+    color: #6aff00;
+}
+.intemediario{
+    color: #ffe600;
+}
+
+.avançado{
+    color: #ff0000;
+}
