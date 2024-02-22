@@ -1,0 +1,20 @@
+@charset "UFT-8";
+
+body{
+    background-image: linear-gradient(to right, #896cccb7,#6e56a3a4);
+}
+
+.bloco1{
+    background-color: aliceblue;
+    background-attachment: fixed;
+    border-radius: 0.5cm;
+    width: auto;
+    margin: 0.5cm;
+    padding: 10px;
+}
+
+
+.bloco2{
+    background-color: aquamarine;
+    background-attachment: fixed;
+}
