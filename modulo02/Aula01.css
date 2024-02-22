@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(115, 25, 233);
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+main{
+    background-color: aliceblue;
+    color: black;
+    text-align: justify;
+    margin: 25px;
+    border-radius: 5px;
+    
+}
