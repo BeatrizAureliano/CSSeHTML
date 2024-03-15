@@ -17,21 +17,44 @@ main{
 
 h1{
     text-align: center;
+    background-color: #d3b3f5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
 }
 
 div{
-    width: 525px;
+    width: 450px;
     height: 550px;
     display: inline-block;
     text-align: center;
-    background-color: #e8d8f8a4;
+    background-color: #e8d8f8;
     box-shadow: 5px 1px 7px rgba(0, 0, 0, 0.603);
     align-items: center;
     justify-content: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px ;
 }
 h2{
     color: black;
+    background-color: #beb3f552;
+    font-size: 33px;
+}
+div>h2{
+    
+}
+div>h2:hover{
+    font-size: 35px;
+}
+div:hover{
+    background-color: #a99af5;
+    height: 570px;
+    width: 500px;
+}
+
+a{
+    color: #BEB3F5;
+    
 }

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    text-align: justify;
+    background-attachment: fixed;
+}
+body{
+    background-image: linear-gradient(to right,#f74352b0,#f87883,#f78b94,#fda5ad)
+}
+
+header{
+    background-image: url(Imagens/papelLarajinha.png);
+    color: #d63441;
+    font-size: 25px;
+    margin: auto 5%;
+    align-items: center;
+    
+}
+
+header >h1{
+    text-align: center;
+    margin:30px auto;
+    font-size: 45px;
+}
+#Imagens{
+    text-align: center;
+    margin: 30px auto ;
+    padding: auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    background-color:  #f7485773 ;
+}
+
+section{
+    margin: 2% 10%;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+section:hover{
+    box-shadow: 3px 3px 3px #fd35469d;
+}
+section>article{
+    display: none;
+}
+
+section:hover >article{
+    display: block;
+    border-radius: 3px;
+}
+
+aside:hover{
+    outline: 1.5px #d63441 dashed;
+    height: 19px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    background-color: #f7485773;
+    
+}
+#filme{
+    margin-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.audio{
+    display: inline-block;
+    padding: auto;
+    margin: 30px auto ;
+    padding-bottom: 10px;
+}
+
+nav{
+    background-color: #ec606c;
+    display: inline-block;
+    margin: 3px 2px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+footer >nav:hover{
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #c72835d2;
+    padding: 5px;
+    outline-color: #d63441c7;
+    outline-style: groove;
+}
+
+footer{
+    background-color: aliceblue;
+    margin:  auto 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+ 

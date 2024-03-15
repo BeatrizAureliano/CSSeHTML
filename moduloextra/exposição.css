@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    text-align: justify;
+}
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #4E6E5D,#8CDEDC);
+}
+h1{
+    text-align: center;
+    background-color: #95ebdb69;
+}
+main>h1{
+    text-align: center;
+}
+main>h1:hover{
+    background-color: #f78f6928;
+}
+main{
+    text-align: center;
+    background-color: beige;
+}

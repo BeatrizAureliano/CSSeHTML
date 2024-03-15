@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(237, 255, 80);
+    margin: 15px;
+}
+h1{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+main{
+    background-color: aliceblue;
+    width: 95%;
+    height: 95%;
+    margin: 20px;
+}
+
+main:hover{
+    background-color: rgb(199, 255, 142);
+    height: 95%;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+main > h2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+main >h2:hover{
+    background-color:rgb(250, 252, 135);
+}
+main > p {
+    display: none;
+    text-align: justify;
+}
+
+main:hover > p {
+    display: block;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: right;
+    width: 15px;
+    height: 15px;
+    text-align: right;
+}
+
+.imagem{
+    text-align: center;
+    display: inline-block;
+    margin-left:10%;
+    margin-right: 10%;
+    
+}
+
+.imagens{
+    margin: auto;
+    
+}
+main#visual > p{
+    text-align: center;
+    
+}
+
+.primeira{
+   text-align: center;
+    height: 400px;
+    width: 500px;
+    margin: 5px;
+    padding: 15px;
+}
+.segunda{
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.painel{
+    display:inline-block;
+}
+
+.painel:hover{
+    text-align: end;
+    height: 16px;
+    height: 16px;
+    box-shadow: 5px 1px 7px rgba(63, 157, 245, 0.603);
+}
