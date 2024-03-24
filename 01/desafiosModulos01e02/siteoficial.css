@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+*{
+    margin: auto;
+}
+
+@font-face {
+    font-family: "android";
+    src: url(imagens/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "babes";
+    src: url("imagens/BebasNeue-Regular.ttf" ) format("opentype");
+}
+
+:root{
+    ---cor01: #c5ebd6;
+    ---cor02: #83e1ad;
+    ---cor03: #3ddc84;
+    ---cor04: #2fa866;
+    ---cor05: #063d1e;
+
+    ---font-android: "android", Times, serif;
+    ---font-principal: Arial, Helvetica, sans-serif;
+    ---font-text:"babes", Times, serif;
+
+}
+
+body{
+    background-color: var(---cor01);
+}
+
+
+/* cabeçalho do site */
+header{
+    background-image: linear-gradient(to bottom,var(---cor04), var(---cor05));
+    color: white;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1{
+    font-family: var(---font-text);
+    margin-bottom: 25px;
+    
+}
+
+header>p{
+    font-family: var(---font-principal);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.788);
+    margin: auto;
+}
+
+nav{
+    background-color: var(---cor05);
+    padding: 5px;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.466);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.788);
+    padding-bottom: 10px;
+}
+
+nav>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav>a:hover{
+    background-color: var(---cor04);
+    color: var(---cor05);
+    transition-duration: 0.5s;
+    width: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+    font-size: 18px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.788);
+}
+
+/* corpo do site*/
+main{
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 950px;
+    min-width: 150px;
+}
+
+h1{
+    font-family: var(---font-android);
+}
+
+main h2{
+    font-family: var(---font-android);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(---cor03) ,transparent);
+}
+
+img{
+    width: 100%;
+    
+}
+
+#bugdroid{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+main p{
+    margin: 10px 10px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+main strong{
+    color: #063d1e;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px #2fa86580;
+}
+
+main a{
+    color: var(---cor05);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(---cor03);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: var(---cor04);
+    transition-duration: 0.5s;
+    padding: 4px 7px;
+}
+
+.emogin::after{
+    content:"\1F517";
+}
+
+div{
+    background-color: #063d1e;
+    margin: 0px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(---cor02);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+
+aside h3{
+    background-color: var(---cor04);
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+aside ul{
+    columns: 2;
+    list-style-type: '\1F5F8';
+}
+/* rodape do site*/
+footer{
+    margin-top: 30px;
+    color: white;
+    background-color: #063d1e;
+    text-align: center;
+    padding: 7px;
+}
+
+footer a{
+    color: var(---cor02);
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: var(---cor01);
+    color: var(---cor05);
+    transition-duration: 0.5s;
+    padding: 2px 5px;
+    border-radius: 2px;
+
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    text-align: justify;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: linear-gradient(to right, #488eb6e1,#34a1e0, #035a8e );
+    
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+    background-image: url(Imagens/the\ feul\ in\ our\ starsFUNDO.jpeg);
+    margin: 2% 5%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+footer{
+    background-color: #76c2ee;
+    margin: 2% 5%;
+    padding: 5px;
+    
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+nav{
+    display: inline-block;
+    background-color: #0176b9;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 1px 1px 2px black;
+    outline-style: groove;
+    outline-color: #035a8e;
+    margin: 3px;
+    font-size: 15px;
+}
+#home{
+    border-radius: 0px;
+    padding: 4px;
+}
+nav:hover{
+    box-shadow: 5px 5px 6px black;
+}
+nav>a:hover{
+    font-size: 17PX;
+}

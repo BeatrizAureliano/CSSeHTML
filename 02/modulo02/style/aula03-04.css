@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&family=Whisper&display=swap');
+
+*{
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+}
+
+:root{
+    ---font-family:"Whisper", cursive;
+    ---font-cursiva:"Send Flowers", cursive;
+    
+    ---cor-body: #F2D0A4; 
+    ---cor-div: #98A6D4;
+    ---cor-destaque: #EF7A85;
+}
+
+
+body{
+    background-color: var(---cor-body);
+}
+
+header>h1{
+    font-family: var(---font-cursiva);
+    text-align: center;
+    background-color: ;
+    
+}
+
+header>div{
+    font-family: var(---font-family);
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+}
+
+article{
+    background-color: var(---cor-div);
+}
