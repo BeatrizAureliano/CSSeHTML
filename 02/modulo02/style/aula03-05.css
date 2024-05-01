@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Titulo" ;
+    src: url("../fontes/Ballistic Script.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+
+    ---font-Titulo: "Titulo", Times, serif;
+
+    ---cor01:rgb(255, 196, 242);
+    ---cor02:rgb(255, 150, 232);
+    ---cor03:rgb(250, 109, 219);
+    ---cor04:rgb(252, 80, 214);
+    ---cor05:rgb(190, 33, 156);
+    ---cor06:rgb(95, 2, 75);
+}
+
+*{
+
+}
+
+body{
+    background-color: var(---cor01) ;
+}
+
+/* Cabeçalho*/
+header{
+    background-color: var(---cor02);
+    margin: -21px -8px 0px -8px;
+}
+
+/* Corpo do site*/
+
+main{
+    background-color: aliceblue;
+    max-width: 850px;
+    margin: auto;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.audio{
+    background-color: var(---cor03);
+    padding: 4px;
+    margin: 3px -10px;
+}
+audio{
+    width: 100%;
+}
+/* Rodapé*/

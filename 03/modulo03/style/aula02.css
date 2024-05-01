@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("https://i.pinimg.com/originals/fd/f9/8e/fdf98e28d20569c6f43d2bee54efcade.jpg");
+    
+    background-size: 200px 300px;
+}
+
+/*Cabeçalho */ 
+header{
+    background-color: aliceblue;
+    margin: -20px -7px 7px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-image: url("../imagens/pattern003.png");
+    margin: -7px -8px 2px ;
+    padding: 8px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: rgb(13, 13, 97);
+    padding: 4px;
+    margin: 5px;
+}
+
+nav>a:hover{
+    background-color: rgb(152, 152, 247);
+    color: rgb(1, 1, 46);
+    border-radius: 5px;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.479);
+    padding: 6px;
+    font-size: 17px ;
+}
+
+/*Corpo do texto */
+main{
+    background-color: aliceblue;
+    max-width: 850px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+/*Rodapé */

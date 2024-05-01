@@ -4,30 +4,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&family=Whisper&display=swap');
 
 *{
-    max-width: 850px;
-    min-width: 320px;
-    margin: auto;
+    background-attachment: fixed;
 }
 
 :root{
     ---font-family:"Whisper", cursive;
     ---font-cursiva:"Send Flowers", cursive;
     
-    ---cor-body: #F2D0A4; 
-    ---cor-div: #98A6D4;
-    ---cor-destaque: #EF7A85;
+    ---cor-01: #F2D0A4; 
+    ---cor-02: #ffc272;
+    ---cor-03: #f8b155;
+    ---cor-04: #98A6D4;
+    ---cor-05: #6a81cc;
+    ---cor-06: #EF7A85;
+    ---cor-07: #f15262;
 }
 
 
 body{
-    background-color: var(---cor-body);
+    background-image: linear-gradient(to right, var(---cor-01), var(---cor-02));
+}
+
+/* cabeçalho */
+header{
+    background-color: var(---cor-03);
+    margin: -21px -8px -7px -7px;
 }
 
 header>h1{
     font-family: var(---font-cursiva);
     text-align: center;
-    background-color: var(---cor-body);
+    padding: 18px;
     
+}
+
+header p{
+    margin: auto;
+    max-width: 450px;
+    padding-bottom: 5px;
+    text-align: justify;
+    padding: 9px;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+}
+
+header>nav{
+    background-color: #fca738;
+    padding: 10px;
+    margin: 8px;
+}
+
+header>nav>a{
+    padding: 5px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+header>nav>a:hover{
+    padding: 8px;
+    font-weight: bolder;
+    color: #af6300;
+    background-color: var(---cor-01);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
 }
 
 header>div{
@@ -35,10 +76,39 @@ header>div{
     font-size: 25px;
 }
 
-img{
-    width: 100%;
+/* corpo do site*/
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 850px;
+    margin: auto;
+    padding: 6px;
 }
 
 article{
     background-color: var(---cor-div);
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
+
+.audio{
+    background-color: var(---cor-03);
+    margin: 1px -6px 0px -6px;
+    padding: 7px;
+}
+
+audio {
+    width: 100%;
+    padding: 5px;
+}
+
+/* rodapé */ 
+
+footer{
+    background-color: var(---cor-03);
+    padding: 1px;
+    margin: 16px -7px -8px -8px;
 }

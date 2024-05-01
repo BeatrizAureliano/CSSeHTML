@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+    ---font01:"Passion One", sans-serif;
+    ---font02:"Sriracha", cursive;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    min-height: 10vh;
+    background-color: #c5c5c5;
+}
+
+/* Cabeçalho */
+header{
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+}
+
+header>h1{
+    padding-top: 50px;
+    font-family: var(---font01);
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header>p{
+    padding-bottom: 50px;
+    
+}
+
+header a, footer a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+/* Corpo */
+section{
+    padding: 5vw;
+    line-height: 1.5em;
+    font-size: 3vw;
+    font-family: var(---font02);
+}
+
+section.Normal{
+    background-color: #ffff;
+    position: relative;
+    height: 300px;
+    
+}
+
+#tamanho, #tamanho02{
+    height: 300px;
+}
+
+#contener>div.bloco{
+    width: 150px;
+    position: relative;
+    transform:translate(800px, -300px);
+
+    top: 50px;
+    left: 50px;
+
+}
+
+#contener02>div.bloco{
+    width: 150px;
+    position: relative;
+    transform:translate(858px, -254px);
+
+    top: 50px;
+    left: 50px;
+
+}
+
+.imagens{
+    background-color: rgb(104, 102, 102);
+    color: #ffff;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 6px 15px rgba(0, 0, 0, 0.445);
+}
+
+.imagens>p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.356);
+    text-shadow: 0px 10px 7px black;
+    
+}
+section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-position: center right;
+    
+}
+
+section#img02{
+    background-image: url("../imagens/background002.jpg");
+}
+
+/* Rodapé */
+footer{
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+}

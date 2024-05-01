@@ -1,0 +1,47 @@
+@charset "UTF -8 ";
+
+body{
+    background: black url("../imagens/wallpaper002.jpg") center center  fixed ;
+    height: 98vh;
+    background-size: cover;
+}
+
+main{
+    max-width: 550px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(58, 189, 250), transparent);
+    padding: 10px;
+    margin: 20px -8px -20px;
+}
+
+nav>a{
+    color: black;
+    text-decoration: none;
+    margin: 8px;
+    padding: 1px;
+
+}
+
+nav>a:hover{
+    background-color: rgb(1, 71, 88);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.466);
+}

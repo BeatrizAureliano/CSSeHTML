@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+main{
+    max-width: 950px;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+ tr, td, th{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+th{
+    
+    border: 2px solid black;
+}
+
+
+.cinza{
+    background-color: rgb(65, 64, 64);
+    color: aliceblue;
+    border: 2px solid black;
+}
+
+.num{
+    text-align: center;
+}

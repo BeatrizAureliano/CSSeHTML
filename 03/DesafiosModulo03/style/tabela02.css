@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table{
+    padding: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr, td{
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.pintar{
+    background-color: rgb(255, 0, 0);
+    font-weight: bolder;
+}

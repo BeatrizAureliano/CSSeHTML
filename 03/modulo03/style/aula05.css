@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+section{
+    padding: 5px;
+    height: 600px;
+    width: 100%;
+    background-color: purple;
+    background-image: url("../imagens/target001.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    position: relative;;
+
+}
+
+#caixa{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    transform: translate(30px,30px);
+
+    top: 50%;
+    left: 50%;
+}

@@ -15,3 +15,19 @@ main{
     border-radius: 5px;
     
 }
+
+nav > a{
+    color: black;
+    background-color: rgb(208, 163, 250);
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    background-color: rgb(79, 1, 151);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    font-size: 18px;
+}

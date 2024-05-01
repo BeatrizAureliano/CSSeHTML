@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+}
+
+h1{
+    background-color: aliceblue;
+    margin: -7px -8px -2px;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+nav{
+    background-image: linear-gradient(to right, aliceblue, transparent);
+    margin: 1px -8px 6px;
+    padding: 8px;
+}
+
+nav>a{
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+}
+
+nav>a:hover{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.692);
+}
+.Bloco{
+    display: inline-block;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 8px solid rgb(1, 138, 131);
+}
+
+.Bloco#q1{
+     background-image: url("../imagens/wallpaper003.jpg");
+     background-position: center bottom; 
+}
+
+.Bloco#q2{
+    background-image: url("../imagens/wallpaper003.jpg");
+    background-position: center center; 
+}
+
+.Bloco#q3{
+    background-image: url("../imagens/wallpaper003.jpg");
+    background-position: center left; 
+}
+
+.Bloco#q4{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: center right;
+}
+
+.Bloco#q5{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: bottom center ;
+}
+
+
+.Bloco#q6{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: bottom right;
+}
+
+.Bloco#q7{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: bottom left;
+}
+
+.Bloco#q8{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: left left;
+}
+
+.Bloco#q9{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: left right;
+}
+
+.Bloco#q10{
+    background-image: url("../imagens/wallpaper003.jpg"); 
+    background-position: right right;
+}

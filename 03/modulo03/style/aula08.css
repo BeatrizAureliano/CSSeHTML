@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root{
+    ---cor01:#bbbbbb;
+    ---cor02:#666666;
+    ---cor04:#3a3a3a;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, var(---cor04), var(---cor02));
+    color: var(---cor01);
+}
+
+table{
+    background-color: var(---cor01);
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+caption{
+    color: var(---cor01);
+    background-color: var(---cor04);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+table:nth-child(eveen){
+    background-color: var(---cor02);
+}
+th,td,tr{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.2em;
+}

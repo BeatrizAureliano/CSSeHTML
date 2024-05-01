@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    ---font01:"Pacifico", cursive;
+}
+
+body{
+    background-image: linear-gradient(to bottom, salmon, rgba(250, 128, 114, 0.473));
+}
+
+header{
+    background-color: rgb(224, 53, 53);
+    margin: -21px -8px 11px;
+    padding: 12px;
+
+}
+
+header>h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: aliceblue;
+    font: small-caps bold 45px  var(---font01);
+}
+
+header>nav{
+    background-color: rgba(250, 128, 114, 0.356) ;
+    margin: 0px -11px -12px;
+    padding: 10px;
+}
+
+header>nav>a{
+    padding: 10px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+header>nav>a:hover{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.527);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: salmon;
+    color: #ffff;
+    
+}
+
+table{
+    background-color: #ffff;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 18px 15px 25px 14px;
+}
+
+thead >tr{
+    position: sticky;
+    background-color: #f56150;
+
+    top: 0px;
+}
+
+tbody > tr:nth-child(even){
+    background-color: rgba(250, 128, 114, 0.5);
+}
+
+
+thead, tfoot{
+    background-color: #f56150c0;
+}
+
+.num{
+    text-align: end;
+    padding: 20px 0px 25px 20px;
+}
+
+footer{
+    background-color: rgb(255, 63, 63);
+    margin: 19px -7px -8px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer a{
+    color: #ffff;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    color: #ffff;
+    text-decoration: underline;
+    
+}

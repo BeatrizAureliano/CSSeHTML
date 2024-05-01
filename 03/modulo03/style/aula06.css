@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(196, 194, 194);
+}
+
+table{
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    height: 550px;
+    width: 500px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    background-image: url("../imagens/pattern001.png");
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.zero{
+    border: none;
+}
+.zero:hover{
+    background-color: aliceblue;
+    font-size: 15px;
+    background-image: none;
+}

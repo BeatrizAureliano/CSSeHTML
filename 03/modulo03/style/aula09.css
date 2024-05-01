@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+th,tr,td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.Cnome{
+    background-color:#cda7f1;
+    
+}
+
+.Cautor{
+    background-color: #b674f3;
+}
+
+.Ceditora{
+    background-color: #9f46f1;
+}
+
+.Cpaginas{
+    background-color: #8d23f0;
+}
