@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+body{
+    background-color: rgba(255, 0, 0, 0.548);
+}
+/* Header */
+header{
+    background: linear-gradient(to right,  rgba(255, 0, 0, 0.548), rgb(221, 91, 91));
+    margin: -8px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Main */
+main{
+    background-color: aliceblue;
+    margin:auto;
+    max-width: 850px;
+}
 table{
     padding: 20px;
     margin: auto;
@@ -12,6 +36,7 @@ tr, td{
     text-align: center;
 
     border-radius: 5px;
+
 }
 
 .pintar{

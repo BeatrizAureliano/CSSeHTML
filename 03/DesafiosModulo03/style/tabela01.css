@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+body{
+    background-color: rgba(182, 140, 221, 0.582);
+}
+/*Header*/
+header{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(149, 80, 214) ;
+    margin: -9px;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+
+/*main*/
+main{
+    max-width: 850px;
+    margin: auto;
+    font-size: 17px;
+    background-color: aliceblue;
+    padding: 10px;
+}
 table{
     border-collapse: collapse;
     margin: auto;
@@ -7,7 +31,7 @@ table{
 
 tr,td{
     border: 1px solid black;
-    padding: 15px;
-    text-align: center;
+    padding: 30px;
+    text-align: center
     
 }
