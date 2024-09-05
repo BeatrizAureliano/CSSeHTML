@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*header*/
+
+h1{
+    text-align: center;
+}
+
+iframe{
+    max-width: 850px;
+    min-width: 550px;
+
+    display: block;
+    margin: auto;
+
+    background-color: lightblue;
+}
